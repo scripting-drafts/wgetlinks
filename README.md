@@ -9,10 +9,11 @@ Fetch download links and filenames from URL's and wget them.
 
 Usage;
 - Write your URL: "url = YOUR_URL".
-- Write a regex aproximation of the download links URL's to this bit of the script: links = re.findall(r'https://REGEX_URL').
-Protip - Convert your url to regex with [http://www.regexlab.com/wild2regex].
+- Write a regex aproximation of the download links URL's to this bit of the script: "links = re.findall(r'https://REGEX_URL', stringLinks, re.IGNORECASE)".
 
 Dependencies;
 - Python
 - Wget
 - Beautiful Soup
+
+Aditional - Convert your url to regex with this [http://www.regexlab.com/wild2regex].
