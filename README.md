@@ -5,7 +5,7 @@ It still lacks the Wget function. Meanwhile you can print a list of URL's and fi
 
 Usage;
 - Write your URL: "url = YOUR_URL".
-- Write a regex aproximation of the download links URL's to this bit of the script: "links = re.findall(r'https://REGEX_URL', stringLinks, re.IGNORECASE)".
+- Write a regex aproximation of the download links within the URL on this bit of the script: "links = re.findall(r'https://REGEX_URLS_BEGINNING', stringLinks, re.IGNORECASE)".
 
 Provisional because unnecessary;
 - Append the last file you downloaded at "lastBook = *** " and "if len(links) == 1 and lastBook >= *** " writing the number of the last file you were able to download.
@@ -17,6 +17,4 @@ Dependencies;
 - Wget
 - Beautiful Soup
 
-Aditional - Convert your url to regex with this [http://www.regexlab.com/wild2regex].
-
-The Idea: To fetch download links and filenames from URL's and wget them.
+Additional - Convert the urls to regex with this [http://www.regexlab.com/wild2regex].
