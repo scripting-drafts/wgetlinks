@@ -10,6 +10,7 @@ Usage;
 Provisional because unnecessary;
 - Append the last file you downloaded at "lastBook = *** " and "if len(links) == 1 and lastBook >= *** " writing the number of the last file you were able to download.
 - Write the number of files you're going to download at:"cnt = NUMBER", append it at "if len(links) == 1 and cnt <= NUMBER" and uncomment "cnt +=1"
+- If you try the wget failures use the sleep function to prevent the interpreter's demise.
 
 Dependencies;
 - Python
